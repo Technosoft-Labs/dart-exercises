@@ -13,3 +13,10 @@
 - If you have any issue with this repository, then post [here](https://github.com/Technosoft-Labs/dart-exercises/issues)
 - Our [discussions](https://github.com/Technosoft-Labs/dart-exercises/discussions) panel is always open to chat on repository related topics
 
+## Tools
+
+- Git [[download](https://git-scm.com/downloads)]
+- Intellij Idea [[download](https://www.jetbrains.com/idea/download/)]
+- Flutter [[download](https://flutter.dev/docs/get-started/install)]
+- JDK [[download](https://www.oracle.com/java/technologies/downloads/)]
+
