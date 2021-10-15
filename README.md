@@ -37,3 +37,21 @@ void main() {
   print("Hello my name is $name");
 }
 ```
+
+
+> program2.dart
+```dart
+void main() {
+  // This variable considered as with type annotation. String keyword makes it
+  // as this variable only can hold String type and it doesn't depend upon the
+  // value passed in it.
+  const String name = "Dipak"; // Replace with your own name
+
+  // This variable considered as without type annotation. Type of this variable
+  // depends upon the value passed in it.
+  const profession = "developer"; // Replace your profession
+
+  /// Printing out the [name] and [profession] variables
+  print("Hi my name is $name and I'm a $profession.");
+}
+```
