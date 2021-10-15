@@ -22,3 +22,18 @@
 - Flutter [[download](https://flutter.dev/docs/get-started/install)]
 - JDK [[download](https://www.oracle.com/java/technologies/downloads/)]
 
+### Programs
+
+> program1.dart
+
+```dart
+void main() {
+  // Replace with your name accordingly
+  const name = "Dipak";
+
+  // Printing out the name to the Standard output system
+  // Standard output system can be any output system e.g., terminal [Mac / Linux], powershell,
+  // bash, command prompt [windows] etc.
+  print("Hello my name is $name");
+}
+```
