@@ -31,12 +31,7 @@
 
 ```dart
 void main() {
-  // Replace with your name accordingly
   const name = "Dipak";
-
-  // Printing out the name to the Standard output system
-  // Standard output system can be any output system e.g., terminal [Mac / Linux], powershell,
-  // bash, command prompt [windows] etc.
   print("Hello my name is $name");
 }
 ```
@@ -45,16 +40,17 @@ void main() {
 > program2.dart
 ```dart
 void main() {
-  // This variable considered as with type annotation. String keyword makes it
-  // as this variable only can hold String type and it doesn't depend upon the
-  // value passed in it.
-  const String name = "Dipak"; // Replace with your own name
-
-  // This variable considered as without type annotation. Type of this variable
-  // depends upon the value passed in it.
-  const profession = "developer"; // Replace your profession
-
-  /// Printing out the [name] and [profession] variables
+  const String name = "Dipak"; 
+  const profession = "developer"; 
   print("Hi my name is $name and I'm a $profession.");
+}
+```
+
+> program3.dart
+```dart
+void main() {
+  for(int number = 1; number <= 100; number++) {
+    print("The number is $number");
+  }
 }
 ```
