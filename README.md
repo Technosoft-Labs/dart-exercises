@@ -30,7 +30,7 @@
 
 ### Programs
 
-> program1.dart
+> program1.dart | Printing a name
 
 ```dart
 void main() {
@@ -40,7 +40,7 @@ void main() {
 ```
 
 
-> program2.dart
+> program2.dart | Printing out name and profession of a person
 ```dart
 void main() {
   const String name = "Dipak"; 
@@ -49,7 +49,7 @@ void main() {
 }
 ```
 
-> program3.dart
+> program3.dart | Printing numbers
 ```dart
 void main() {
   for(int number = 1; number <= 100; number++) {
@@ -58,7 +58,7 @@ void main() {
 }
 ```
 
-> program4.dart
+> program4.dart | Getting input from user
 ```dart
 import 'dart:convert';
 import 'dart:io';
@@ -69,5 +69,27 @@ void main() {
   var name = stdin.readLineSync(encoding: utf8);
 
   print("Hello $name. It's nice to see you're learning Dart. 🙂");
+}
+```
+
+> program5.dart | Swapping two integers
+```dart
+import 'dart:io';
+
+void main() {
+  var firstNumber, secondNumber;
+
+  stdout.write("Enter the first number: ");
+  firstNumber = int.parse(stdin.readLineSync() ?? "0");
+
+  stdout.write("Enter the second number: ");
+  secondNumber = int.parse(stdin.readLineSync() ?? "0");
+
+  // Swapping two integers
+  firstNumber = firstNumber + secondNumber;
+  secondNumber = firstNumber - secondNumber;
+  firstNumber = firstNumber - secondNumber;
+
+  print("first number: $firstNumber \nsecond number: $secondNumber");
 }
 ```
