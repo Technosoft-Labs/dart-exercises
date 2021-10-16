@@ -57,3 +57,17 @@ void main() {
   }
 }
 ```
+
+> program4.dart
+```dart
+import 'dart:convert';
+import 'dart:io';
+
+void main() {
+
+  stdout.write("Please enter your name: ");
+  var name = stdin.readLineSync(encoding: utf8);
+
+  print("Hello $name. It's nice to see you're learning Dart. 🙂");
+}
+```
